@@ -3,18 +3,18 @@ In brief, a mini program that creates .lua files for a gaming platform for a spe
 
 
 
-One of the platforms used to play Yugioh (a card game) is EDOPro, also known as YGOPro. It makes use of .lua scripts, each one representing one card and utilizing its "effects". 
+One of the platforms people typically use to play Yugioh (a card game) is EDOPro, also known as YGOPro. It makes use of .lua scripts, each one representing one card and utilizing its "effects". 
 There are three (technically only two) ways to create/write the scripts:
 1. Manually, by individuals.
 2. Manually but collaboratively, by groups of people who support the platform.
 3. Automatically by using an app.
 
 There are extremely few apps about it that I know of. One of them is my own, ScriptGeneratorYGO, which can be found here: https://github.com/ManolisPy/ScriptGeneratorYGO
-I worked on that mostly as my graduate project. It makes use of dictionaries and ready parts of code commonly seen in the actual scripts, instead of a more... sophisticated way like here.
+I worked on that mostly as my graduate project. It makes use of many drop-down menus, checkboxes and all that stuff, instead of a more... sophisticated way like here.
 
-The idea is to write a card's "effect" (text), then the program "reads" it and creates the .lua file automatically. Not in demo version anymore but still minimal at the moment; just a small drop-down menu, a text box and two ready example effects to work with. The user selects one of the two and the corresponding text appears in the text box. Then, they click a button and voila! file created.
+The idea is to write a card's "effect" (text), then the program "reads" it and creates the .lua file automatically. A minimal version at the moment; a text box and two ready example effects to work with. The user selects one of the two from the drop-down menu and the corresponding text appears in the text box. Then, they click a button and voila! file created.
 
-You will find the executable and a zipped file with itself & its dependencies, both made with Pyinstaller. The modules are also uploaded, separately.
+You will find the executable and a zipped file with itself & its dependencies, both built with Pyinstaller. The modules are also uploaded, separately.
 
 
 
